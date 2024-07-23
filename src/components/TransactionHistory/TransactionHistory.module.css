@@ -1,0 +1,39 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 75px auto;
+  width: 450px;
+  border: 2px solid black;
+  padding: 0;
+}
+.container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.list {
+  background-color: #6b6b6c;
+  color: white;
+}
+.item {
+  font-size: 150%;
+  margin: 0;
+  width: 150px;
+}
+.field {
+  padding: 0;
+}
+.el {
+  padding-left: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  width: 150px;
+  margin: 0;
+  border-bottom: 2px solid black;
+}
+.el:not(:last-child) {
+  border-right: 2px solid black;
+}

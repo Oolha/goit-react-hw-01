@@ -1,6 +1,14 @@
 .isOnline {
   color: green;
+  margin-top: 0;
 }
 .isOffline {
   color: red;
+  margin-top: 0;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
